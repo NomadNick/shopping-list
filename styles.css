@@ -1,0 +1,42 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.shopping-list {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.shopping-list .shopping-list-heading {
+  margin-bottom: 10px;
+}
+.shopping-list-heading {
+  text-align: center;
+}
+
+.shopping-list .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 50px;
+}
+
+.shopping-list .form-control:focus {
+  z-index: 2;
+}
+.shopping-list input[type="text"] {
+  margin-bottom: -1px;
+  border-radius: 10;
+}
+
+.list-items {
+  max-width: 560px;
+  padding: 15px;
+  margin: 0 auto;
+}
