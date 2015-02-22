@@ -1,7 +1,9 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #eee;
+  background-image: url(http://freeimageslive.com/galleries/workplace/education/pics/blank_blackboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .shopping-list {
@@ -9,11 +11,17 @@ body {
   padding: 15px;
   margin: 0 auto;
 }
+
 .shopping-list .shopping-list-heading {
   margin-bottom: 10px;
 }
+
 .shopping-list-heading {
   text-align: center;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 7em;
+  color: white;
+  max-width: 560px;
 }
 
 .shopping-list .form-control {
@@ -24,19 +32,63 @@ body {
           box-sizing: border-box;
   padding: 10px;
   font-size: 16px;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .shopping-list .form-control:focus {
   z-index: 2;
 }
+
 .shopping-list input[type="text"] {
   margin-bottom: -1px;
   border-radius: 10;
 }
 
-.list-items {
+p {
+  text-align: center;
+  font-size: 1.25em;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.list-all {
   max-width: 560px;
   padding: 15px;
   margin: 0 auto;
 }
+
+.list-group-item {
+  background-color: #eeeeee;
+  margin-right: 10px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.list-item {
+  color: #616161;
+  margin-left: 20px;
+}
+
+.glyphicon-ok {
+  color: #76ff03;
+}
+
+.glyphicon-remove {
+  color: #f44336;
+}
+
+.glyphicon-ok .glyph-list-ok {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.glyphicon-remove .glyph-list-remove {
+  margin-left: 10px;
+}
+
+.pull-right {
+  float: right !important;
+}
+
+

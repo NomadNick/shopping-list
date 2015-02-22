@@ -16,6 +16,8 @@
     <!-- Custom styles for this template -->
     <link href="styles.css" rel="stylesheet">
 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker|Walter+Turncoat|Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
@@ -30,25 +32,26 @@
   <body>
 
     <div class="container">
-
       <form class="shopping-list">
-        <h2 class="shopping-list-heading">Shopping List</h2>
+        <h1 class="shopping-list-heading">Shopping List</h1>
         <label for="inputEmail" class="sr-only">Add your item here, then press 'Enter'</label>
         <input type="text" id="inputItem" class="form-control" placeholder="Add your item here, then press 'Enter'" required autofocus>
       </form>
-
     </div>
-    <div class='list-items'>
+    <div class="instructions">
+      <p>Once items are added to the list, click <span class="glyphicon glyphicon-ok glyph-instructions"></span> to mark them as 'done'.</p>
+
+      <p>If you no longer need an item, just click <span class="glyphicon glyphicon-remove glyph-instructions"></span> to delete it.</p>
+    </div>
+    <div class='list-all'>
       <ul class="list-group">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
-        <li class="list-group-item">Porta ac consectetur ac</li>
-        <li class="list-group-item">Vestibulum at eros</li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok glyph-list-ok"></span><span class="list-item">Milk</span><span class="glyphicon glyphicon-remove glyph-list-remove pull-right"></span></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok glyph-list-ok"></span><span class="list-item">Beer</span><span class="glyphicon glyphicon-remove glyph-list-remove pull-right"></span></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok glyph-list-ok"></span><span class="list-item">Peanut Butter</span><span class="glyphicon glyphicon-remove glyph-list-remove pull-right"></span></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok glyph-list-ok"></span><span class="list-item">Jelly</span><span class="glyphicon glyphicon-remove glyph-list-remove pull-right"></span></li>
+        <li class="list-group-item"><span class="glyphicon glyphicon-ok glyph-list-ok"></span><span class="list-item">Water</span><span class="glyphicon glyphicon-remove glyph-list-remove pull-right"></span></li>
       </ul>
     </div>
-
-
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
