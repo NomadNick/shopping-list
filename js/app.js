@@ -19,7 +19,6 @@
 	}
 	}
 
-$(document).ready(function () {
 	$('#add').on('click', addListItem);
 	$(document).on('keypress', function(e) {
 		if(e.which == 13) {
@@ -29,4 +28,3 @@ $(document).ready(function () {
 	})
 	$(document).on('click', '.glyph-list-remove', deleteItem);
 	$(document).on('click', '.item-done', finishItem);
-});
